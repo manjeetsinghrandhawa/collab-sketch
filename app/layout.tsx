@@ -19,11 +19,11 @@ const spaceGrotest = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "DevFlow",
+  title: "Collab-Sketch",
   description:
     "A community driven platform for developers asking and answering questions.Get help and answers to your questions about anything related to programming and software development from the best developers on the internet.",
   icons: {
-    icon: "/assets/images/site-logo.svg",
+    icon: "/assets/icons/collab-sketch-icon.svg",
   },
 };
 

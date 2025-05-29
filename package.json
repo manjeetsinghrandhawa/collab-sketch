@@ -16,6 +16,7 @@
     "@types/mongoose": "^5.11.96",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "framer-motion": "^12.15.0",
     "lucide-react": "^0.511.0",
     "messages": "^0.1.0",
     "mongoose": "^8.15.1",

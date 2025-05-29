@@ -11,15 +11,18 @@ const Navbar = () => {
     <nav className=" flex flex-between  fixed z-50 w-full gap-5 p-6 transparent sm:px-12">
       <Link href="/" className="flex items-center gap-1">
         
-        <p className="h2-bold  font-spaceGrotesk text-dark-100 dark:text-light-900 max-sm:hidden">
-          Collab <span className="text-primary-500 font-black">Sketch</span>
-        </p>
+        <h1 className="text-4xl ml-16 font-extrabold text-center">
+  <span className="bg-gradient-to-r from-yellow-400 to-yellow-400 bg-clip-text text-transparent">Collab</span>
+  <span className="bg-gradient-to-r from-blue-500 to-blue-500 bg-clip-text text-transparent">-</span>
+  <span className="bg-gradient-to-r from-pink-500 to-pink-500 bg-clip-text text-transparent">Sketch</span>
+</h1>
+
       </Link>
 
-      <div className="flex-between gap-5">
+      <div className="flex-between gap-5 mr-12">
         <div >
         <SignedOut>
-        <div className="flex gap-3">
+        <div className="flex gap-3 ">
           <Link href="/sign-in">
             <Button className="small-medium btn-secondary min-h-[41px] w-full rounded-lg px-4 py-3 shadow-none">
               <Image

@@ -58,10 +58,16 @@ module.exports = {
         xs: "420px",
       },
       keyframes: {
+        rotate3D: {
+          '0%': { transform: 'rotateY(0deg)' },
+          '100%': { transform: 'rotateY(360deg)' },
+        },
         "accordion-down": {
           from: { height: 0 },
           to: { height: "var(--radix-accordion-content-height)" },
+          
         },
+        
         "accordion-up": {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: 0 },
@@ -70,6 +76,7 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+         rotate3D: 'rotate3D 15s linear infinite',
       },
     },
   },

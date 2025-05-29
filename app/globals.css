@@ -61,6 +61,14 @@ body {
     background: linear-gradient(129deg, #ff7000 0%, #e2995f 100%);
   }
 
+  .perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
   .dark-gradient {
     background: linear-gradient(
       232deg,
