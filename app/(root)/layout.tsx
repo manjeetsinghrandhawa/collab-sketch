@@ -1,20 +1,20 @@
+"use client";
+
 import Navbar from "@/components/shared/navbar/Navbar";
 import React from "react";
 
-
-// import { Toaster } from '@/components/ui/toaster';
-
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <main className="background-light850_dark100 relative">
+    <main className="background-light850_dark100 relative w-full">
       <Navbar />
-      <div className="flex">
-        <section className="flex min-h-screen flex-1 px-6 pt-36 max-md:pb-14 sm:px-14 ">
-          <div className="mx-auto w-full max-w-5xl">{children}</div>
-        </section>
-      </div>
-      {/* <Toaster /> */}
+      
+      {/* Full-width section for children */}
+      <section className="w-full min-h-screen pt-36">
+        {children}
+      </section>
+
     </main>
   );
 };
+
 export default Layout;

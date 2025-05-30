@@ -22,7 +22,8 @@ export default function FAQCards() {
   ];
 
   return (
-    <section className="py-20 max-w-6xl mx-auto px-6">
+    <section id="faqsection"
+     className="py-20 max-w-6xl mx-auto px-6">
       <h2 className="text-4xl font-bold text-center text-white mb-16">
         🙋 FAQs — Hover to Reveal
       </h2>

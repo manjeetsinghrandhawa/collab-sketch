@@ -18,7 +18,8 @@ export default function TechStack() {
   const step = 360 / techs.length;
 
   return (
-    <section className="py-20 relative overflow-hidden bg-black/60 backdrop-blur-lg rounded-3xl max-w-6xl mx-auto px-6 mt-20">
+    <section id="techstack"
+     className="py-20 relative overflow-hidden bg-black/60 backdrop-blur-lg rounded-3xl max-w-6xl mx-auto px-6 mt-20">
       <h2 className="text-4xl font-bold text-center text-white mb-12">
         💻 Powered By
       </h2>

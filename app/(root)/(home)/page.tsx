@@ -1,5 +1,6 @@
 "use client";
 import FAQSection from "@/components/HomePage/FAQSection";
+import Footer from "@/components/HomePage/Footer";
 import HowItWorks from "@/components/HomePage/HowItWorks";
 import SimpleSteps from "@/components/HomePage/HowItWorks";
 import TechStack from "@/components/HomePage/TechStack";
@@ -237,7 +238,7 @@ const HomePage: React.FC = () => {
         <div className="gradient-blob" />
       </div>
 
-      <main className="">
+      <main className="max-w-5xl justify-center mx-auto px-6 pt-20 pb-10">
         <h1>Collab-Sketch</h1>
         <p className="subtitle">
           Real-time collaborative document and design editing for modern teams and creators.
@@ -353,6 +354,7 @@ const HomePage: React.FC = () => {
 
       </main>
 
+      <Footer />
     </>
   );
 };
